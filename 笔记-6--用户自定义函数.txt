@@ -1,0 +1,19 @@
+ 1、自定义函数
+  def addMe2Me(x):
+	'apply operation '---DocString用来注释函数
+	return(x+x)
+2. 默认参数
+ 默认参数以赋值语句的形式提供
+ 默认参数需要放到定义的最后
+
+3.关键字参数
+ 一旦使用关键字参数，必须全部使用关键字参数
+
+4.传递函数
+  函数作为参数传递
+
+5.lambda函数(匿名函数)
+  r=lamba x:x+x
+>>>r(5)>>>10
+
+myadd=lambda x,y :x+y

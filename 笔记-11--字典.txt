@@ -1,0 +1,51 @@
+1.字典
+ 不用字典的程序实例：
+names=['wdc','ny','ll','tq']
+salaries[3000,2000,4000,5000]
+print salaries[name.index('ny')]
+>>>2000
+
+ 字典：一种映射
+     key-value对应
+ 实例：
+  aInfo={'wdc':3000,'ny':2000,'ll':4500,'tq':8000}
+  或者用dict来将列表转为元组
+  info=[('wdc',3000),('ny',2000),('ll',4500),('tq',8000)]
+  binfo=dict(info)
+
+fromkeys函数，把所有的key放在一起
+aDict={}.fromkeys(('wdc','ny','ll','tq'),3000)
+
+aDict=dict(zip(aList,bList))
+
+2.字典的使用
+   键值查找 更新 添加 成员判断 删除字典del aInfo
+
+3.输出模板
+
+4.内建函数
+ aInfo.keys()
+ aInfo.values()
+ 
+   
+5. update
+  aInfo
+  bInfo
+  >>>aInfo.update(bInfo) 用bInfo更新aInfo
+
+6.删除字典
+ clear 
+ aInfo.clear()
+
+7.字典作为形式参数
+def func(args1,*argst,**argsd)
+	print args1
+	print argst
+	print argsd
+>>>func('hello','wdc','ny','ll',a1=1,a2=2,a3=3)
+>>>hello
+   ('wdc','ny','ll')
+   {'a1':1,'a2':2,'a3':3}
+
+位置参数、可变长位置参数（*）、可变长关键字参数（**）
+   

@@ -1,0 +1,10 @@
+1、DataFrame类似于表格，一组数值共用一个index，自带index
+   表格型的数据结构
+   data={'name':['wdc','ll','ny'],'pay':[4000,4500,5000]}
+   frame=DataFrame(data)
+
+也可以自己指定index
+
+frame['name']  frame.pay  frame.ix[2]
+
+2、对象的修改和删除

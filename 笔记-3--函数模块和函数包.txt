@@ -1,0 +1,16 @@
+函数、模块、包、库
+1、函数
+abs(x)
+type(x)
+round(x)四舍五入
+
+有内建函数，无需导入
+dir(__builtins__)来查看所有内建函数
+
+2、floor取整
+导入非内建函数，导入函数模板
+>>>import math
+>>>math.floor(5.4)
+
+>>>from   import
+

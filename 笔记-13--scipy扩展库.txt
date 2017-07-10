@@ -1,0 +1,11 @@
+1.numpy
+ 插值，积分
+
+2.matplotlib
+  基于numpy，常用的pyplot是一个简单的类似于matlab的接口模块
+
+3.pandas
+  基于scipy和numpy
+  高效的series和dataframe数据结构	
+  高效处理大数据集的切片功能
+  提供优化库功能读写多种文件格式：csv、HDF5

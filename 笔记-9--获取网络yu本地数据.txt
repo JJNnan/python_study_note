@@ -1,0 +1,32 @@
+1.多个用来抓取网页数据的库
+  urllib urllib.urlopen
+  urllib.urlopen('http://z.cn/')
+
+  urllib.urlopen()
+  f.read()  f.readline()	f.readlines()  f.close()
+
+2.获取本地数据
+ 文件的打开，读写，关闭
+ file_obj=open(filename,mode='r',buffering=-1)
+ buffering是否使用缓冲区，默认-1,0为不缓冲，1或大于1的值表示缓冲一行或指定缓冲区大小
+
+3.f.read()  f.readline()  f.readlines()  f.writelines()
+  f.seek()
+
+4. f.write(str)可以用来写字符串
+
+5.f.read(size)
+
+6.f.readlines()
+  python中，读取字符，会自动读取换行符 \n，不会自动删除换行符
+  写文件也不会自动写入换行符
+
+7.f.writelines()
+
+8.f.seek()
+  f.seek(offset,whence=0)
+  0表示文件的头部，1表示当前位置，2表示文件尾部，
+  offset表示偏移多少字符
+
+9.标准文件
+  stdin stdout stdree

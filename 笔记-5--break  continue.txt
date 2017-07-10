@@ -1,0 +1,7 @@
+1、for循环与break
+
+2、comtinue
+停止当前循环，重新进入循环
+
+3、while与else
+循环正常结束后，运行else后的语句

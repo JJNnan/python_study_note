@@ -1,0 +1,12 @@
+1、array不是python内置模块
+
+2、ndarray 
+  numpy中的基本数据结构
+  from numpy import *
+  aArray=array([1,2,3])
+  arange(1,5,0.5)
+>>>array([1.,1.5,2.,2.5,3.,3.5,4.,4.5])
+
+3、ufunc函数
+  对数组的每个元素进行操作
+  速度很快

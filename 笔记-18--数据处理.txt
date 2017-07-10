@@ -1,0 +1,33 @@
+1、数据准备
+   DataFrame数据更改行列属性名字
+   DataFrame(data,index=range(1,len(data)+1),column=firlds)
+   
+   datetime里的时间转成日常理解的日历
+   date.fromordinal
+   date.strftime(date,'%Y-%m-%d')
+
+  时间序列
+  pandas里的
+   date_range('20141001',periods=7)
+
+2、数据显示
+   显示索引、列名、值、描述
+
+3、数据选择
+   选择行、列、区域、条件选择
++++选择行：索引、切片
++++loc标签进行数据选择：
+   loc[1:5,]
+   loc[:,['code','lasttrade']]
+   选择区域：
+   loc[1:5,['code','lasttrade']]
+>>>loc[行标签，列标签]
+   loc[1,'code']选择单个的值
+
++++iloc[1:6,[0,2]]行列标签为位置，相对于loc，类似于行列号
+
+
+单个值可以用 at[1,'code']  或者  iat[1,2]
+   
+
+>>>条件筛选：

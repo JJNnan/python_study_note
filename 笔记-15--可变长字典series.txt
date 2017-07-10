@@ -1,0 +1,8 @@
+1、pandas--series
+  数据和索引两部分组成
+  from pandas import Series
+  aa=Seris([1,2,''a])
+ 
+  bb=Series([1,2,'a'],index=[1,2,3])
+
+2、Series的数据对齐

@@ -1,0 +1,55 @@
+ t1.序列
+  字符串：str=‘hello,world!’
+  列表： aList=[2,3,5,7,9]
+  元组：aTuple=('sunday','monday')
+  元组构成的列表     pList=[('ba','qq'.'1234')
+                         ('ww','ee','1122') ]
+
+
+2.week=['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
+  week[1]>>>tuesday
+  week[-2]>>>saturday
+  week[1:4]>>>从week[1]开始的(4-1)个值
+  week[:6]>>>即week[0:6]
+  week[::-1]>>>倒序输出
+
+3.序列类型转换函数
+ list()
+ str()
+ unicode()
+ basestring()
+ tuple()
+
+4.内建函数
+ len()	append() extend()
+ sort()	index()	insert()
+ sum()	pop()	remove()
+ reverse()
+  
+
+
+5.列表
+  aList=list('hello.')
+>>>aList>>>['h','e','l','l','o','.']
+   aList[0]='H'
+>>>aList>>>['H','e','l','l','o','.']
+
+6.用序号标出并分行显示  enumerate
+ for i,j in enumerate(week):
+  	print i+1,j
+
+7.字符串
+  格式运算符
+  字符串的应用
+  转义字符
+
+8.元组
+  tuple不可变，list可变
+  元组作为函数的形式参数
+  元组作为函数的常见返回类型
+ 
+
+
+
+
+  

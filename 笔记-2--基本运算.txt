@@ -1,0 +1,19 @@
+1、基本运算
+乘方**  整除//
+
+2、逻辑运算符
+not取反，and、or
+
+3、字符运算
+（r/R）与（u/U）
+
+r：用于一些不希望转义字符起作用的地方
+>>>f=open('c:\python\test.py','w')会报错
+改成
+>>>f=open(r'c:\python\test.py','w')
+等价于
+>>>f=open('c:\\python\\test.py','w')
+
+u:转成Unicode字符串
+
+4、位运算
