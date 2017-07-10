@@ -1,0 +1,30 @@
+1、Matplotlib绘图----主要用于2维制图
+   绘图API--pyplot模块
+   pylab模块--包含Numpy和pyplot中常用函数
+
+   plot（x,y,'o'）---散点图
+   bar（x,y,）---柱状图
+
+2、Matplotli图像属性
+   色彩和样式
+   其他属性：线性、线宽、图例等
+
+   子图：subplot
+   subplot(211),2行1列，第一个图
+   subplot(66,10)大于9的用，隔开
+
+   子图：axes
+   在一个图里生成另一个图
+   axes(left,bottom,width,height)
+
+3、pandas作图
+   实现基于Series和DataFrame的数据结构作图
+   控制图像形式和属性
+   plot(kind='bar')  plot(kind='bar',stack=True)累计柱状图
+   plot(kind='barh')
+   plot(kind='kde')概率分布图
+
+
+
+   
+  

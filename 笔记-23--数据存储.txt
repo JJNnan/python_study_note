@@ -1,0 +1,9 @@
+1、csv格式存取
+   pandas中
+   to_csv和read_csv函数
+
+2、xls格式存取
+   to_excel和read_excel函数
+
+3、python的理工应用
+   Biopython在生物学上应用

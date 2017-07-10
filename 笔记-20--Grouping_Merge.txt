@@ -1,0 +1,7 @@
+1、groupby('month')以月份进行分组
+
+2、merge合并
+   append追加
+   concat连接
+   join连接
+
